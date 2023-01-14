@@ -21,7 +21,7 @@ import org.apache.commons.lang3.StringUtils;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://frontend-jam.web.app")
 public class PersonaController {
     @Autowired
     ImpPersonaService personaService;
